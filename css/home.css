@@ -4,6 +4,9 @@
     padding: 0;
     font-family: "Roboto", sans-serif;
 }
+.cuerpo {
+    background-color: #ce925693;
+}
 
 li, a, button {
 font-weight: 500;
@@ -28,8 +31,8 @@ button {
     border-left: 2px solid #003E00;
     border-right: 2px solid #003E00;
     border-bottom: 2px solid #003E00;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    /*border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;*/
 }
 .nav-links {
     list-style: none;
@@ -98,7 +101,7 @@ button:hover {
     padding: 20px;
     font-size: 18px;
     font-weight: 400;
-    border-radius: 5px;
+    border-radius: 75%;
     align-items: center;
     cursor: pointer;
     justify-content: space-between;
