@@ -6,6 +6,15 @@
 }
 .cuerpo {
     background-color: #ce925693;
+    min-height: 10000px;
+}
+.logo-principal {
+    padding: 300px 600px;
+    height: 1000px;
+}
+.Nosotros {
+    height: 2000px;
+
 }
 
 li, a, button {
