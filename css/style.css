@@ -162,12 +162,11 @@
   .formulario {
     position: relative;
     bottom: 100px;
-    height: 60vh;
+    height: 50vh;
     width: 400px;
     padding: 1rem;
     margin: 2rem;
-    background-color:#ce9256;
-
+    background-color:#ce9256a1;
   }
   
   .create-account {
@@ -183,7 +182,7 @@
     width: 72%;
     display: block;
     margin: auto;
-    margin-bottom: 1.8rem;
+    margin-bottom: 3rem;
     background-color: transparent;
     border: none;
     border-bottom: #55672B thin solid;
@@ -206,6 +205,11 @@
     font-size: 0.8rem;
     cursor: pointer;
     color: #222;
+  }
+
+  .logo2 {
+    position: absolute;
+    top: 150px;
   }
   
   .sign-up {
