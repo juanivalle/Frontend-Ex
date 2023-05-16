@@ -8,6 +8,7 @@
     background-color: #ce925693;
     min-height: 10000px;
 }
+
 .logo-principal {
     padding: 300px 600px;
     height: 1000px;
@@ -37,9 +38,9 @@ button {
     align-items: center;
     padding: 5px 10%;
     background-color: #ce9256be;
-    border-left: 2px solid #003E00;
-    border-right: 2px solid #003E00;
-    border-bottom: 2px solid #003E00;
+    /*border-left: 2px solid #003E00;
+    border-right: 2px solid #003E00;*/
+    border-bottom: 1px solid #003E00;
     /*border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;*/
 }
@@ -144,4 +145,82 @@ button:hover {
 
 .opciones .opcion:hover {
     background-color: #003e0077;
+}
+
+.Nosotros-titulo {
+    position: relative;
+    text-align: center;
+    padding: 100px;
+    font-size: 90px;
+}
+
+.mision {
+    position: relative ;
+    border-left: 2px solid #003E00;
+    border-right: 2px solid #003E00;
+    border-bottom: 2px solid #003E00;
+    border-top: 2px solid #003E00;
+    width: 900px;
+    height: 900px;
+    left: 500px;
+    right: 500px;
+}
+
+.mision-titulo-1{
+    position: absolute;
+    width: 450px;
+    height: 446px;
+    top: 0;
+    left: 25%;
+    padding: 20px;
+    font-size: 60px;
+    border-right: 2px solid #003E00;
+    transform: translateX(-50%);
+}
+
+.texto-mision {
+    font-size: 20px;
+    text-align: justify;
+}
+
+.texto-vision {
+    font-size: 20px;
+    text-align: justify;  
+}
+
+.texto-valores {
+    font-size: 20px;
+    text-align: justify;
+    
+}
+
+.vision-titulo-1{
+    position: absolute;
+    width: 450px;
+    height: 446px;
+    top: 0;
+    left: 50%;
+    font-size: 60px;
+    padding: 20px;
+}
+
+.valores-titulo-1 {
+    position: absolute;
+    width: 100%;
+    height: 450px;
+    font-size: 60px;
+    bottom: 0;
+    border-top: 2px solid #003E00;
+}
+
+.mision-titulo-2{
+    text-align: center;
+}
+
+.vision-titulo-2 {
+    text-align: center;
+}
+
+.Valores-titulo-2 {
+    text-align: center;
 }
