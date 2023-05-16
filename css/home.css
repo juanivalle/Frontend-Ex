@@ -77,13 +77,13 @@ button {
     padding: 9px 25px;
     background-color:#003e00c0;
     border: none;
-    border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
 }
 
 button:hover {
     background-color:#003e00;
+    transform: scale(1.1);
 }
 
 .header .logo {
@@ -224,3 +224,55 @@ button:hover {
 .Valores-titulo-2 {
     text-align: center;
 }
+.contacto-titulo {
+    position: relative;
+}
+.form-contacto {
+    position: relative;
+    bottom: 100px;
+    height: 50vh;
+    width: 400px;
+    padding: 1rem;
+    margin: 2rem;
+    background-color:#ce9256a1;
+  }
+
+  .form-soporte {
+    position: relative;
+    bottom: 100px;
+    height: 50vh;
+    width: 400px;
+    padding: 1rem;
+    margin: 2rem;
+    background-color:#ce9256a1;
+  }
+
+  .form-contacto input {
+    width: 72%;
+    display: block;
+    margin: auto;
+    margin-bottom: 3rem;
+    background-color: transparent;
+    border: none;
+    border-bottom: #55672B thin solid;
+    text-align: center;
+    outline: none;
+    padding: 0.2rem 0;
+    font-size: 0.9rem;
+    color: rgb(0, 0, 0);
+  }
+
+  .form-soporte input {
+    width: 72%;
+    display: block;
+    margin: auto;
+    margin-bottom: 3rem;
+    background-color: transparent;
+    border: none;
+    border-bottom: #55672B thin solid;
+    text-align: center;
+    outline: none;
+    padding: 0.2rem 0;
+    font-size: 0.9rem;
+    color: rgb(0, 0, 0);
+  }
