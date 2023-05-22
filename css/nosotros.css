@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: #ce925693;
+}
+
+.nosotros {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid #003E00;
+    background-color: #ce9256be;
+    justify-content: center;
+    align-content: center;
+}
+.valores {
+    width: 100%;
+    border-top: 2px solid #003E00;
+}
+.mision {
+    width: 50%;
+    border-right: 2px solid #003E00;
+}
+.vision {
+    width: 50%;
+}
+.nosotros h1 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 35px;
+    font-size: 35px;
+}
+.nosotros h2 {
+    font-size: 25px;
+    margin: 15px;
+    text-align: center;
+}
+.nosotros p {
+    margin: 20px;
+    text-align: justify;
+}
