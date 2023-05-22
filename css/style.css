@@ -113,47 +113,6 @@
     justify-content: center;
     margin-top: 80px;
   }
-  
-  /*.container-form {
-    width: 90%;
-    height: 90vh;
-    display: flex;
-    justify-content: space-around;
-    transition: all 0.5s ease-out;
-  }
-  
-  .welcome-back {
-    display: flex;
-    align-items: center;
-    text-align: center;
-  }
-  
-  .message {
-    padding: 1rem;
-  }
-  
-  .message h2 {
-    font-size: 1.7rem;
-    padding: 1rem 0;
-  }
-  
-  .message button {
-    padding: 1rem;
-    font-weight: 400;
-    background-color: var(--detailgrin);
-    border-radius: 2rem;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    font-size: 0.9rem;
-    margin-top: 2rem;
-    transition: all 0.3s ease-in;
-    color: #fff;
-  }
-  
-  .message button:hover {
-    background-color: var(--grin);
-  }*/
   .recuperar {
     position: relative;
     top: 10px;
