@@ -20,12 +20,14 @@
             <a href="#"> <i class="fa fa-envelope"></i>adm.clubie@gmail.com</a>
             <a href="#"> <i class="fa fa-map-marked"></i> Montevideo, Uruguay</a>
         </div>
-        <form action="#" autocomplete="off">
-            <input type="text" name="nombre" placeholder="Ingresa tu nombre" class="campo">
-            <input type="email" name="email" placeholder="Ingresa tu correo" class="campo">
-            <input type="asunto" name="asunto" placeholder="Asunto de su consulta" class="campo">
-            <textarea name="mensaje" placeholder="Ingresa tu mensaje"></textarea>
-            <input type="submit" name="enviar" value="enviar mensaje" class="btn">
+        <form action="https://formsubmit.co/adm.clubie@gmail.com" method="POST" autocomplete="off">
+            <input type="text" name="name" placeholder="Ingrese su nombre" class="campo">
+            <input type="email" name="email" placeholder="Ingrese su correo" class="campo">
+            <input type="text" name="subject" placeholder="Asunto de su consulta" class="campo">
+            <textarea type="coments" name="coments" placeholder="Ingresa tu mensaje"></textarea>
+            <input type="submit" value="enviar mensaje" class="btn">
+            <input type="hidden" name="_next" value="http://127.0.0.1:5000/contact.html">
+            <input type="hidden" name="_captcha" value="false">
         </form>
     </div>
     {% endblock %}
