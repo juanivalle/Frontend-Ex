@@ -5,6 +5,7 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
+    border: 1px solid #003E00;
   }
   
   .footer-bottom {
