@@ -7,6 +7,9 @@
 
 body {
     background-color: #ce925693;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
 }
 
 .nosotros {
@@ -19,6 +22,7 @@ body {
     background-color: #ce9256be;
     justify-content: center;
     align-content: center;
+    margin-top: 11%;
 }
 .valores {
     width: 100%;
