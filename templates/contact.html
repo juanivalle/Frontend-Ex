@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/home-nologin.css">
+    
+    <title>Clubie</title>
+</head>
+<body class="cuerpo">
+    {% extends 'base/base-nolog.html'%}
+
+    {% block content %}
+<section class="Contacto">
+    <h2 class="Contacto-titulo">Contacto</h2>
+    <form class="form-soporte">
+        <input type="email" placeholder="Email">
+        <input type="text" placeholder="Nombre">
+        <input type="text" placeholder="Asunto problema">
+        <input type="text" placeholder="Comentario">
+        <button type="submit">submit</button>
+    </form>
+    <form action="" class="form-contacto">
+        <input type="email" placeholder="Email">
+        <input type="text" placeholder="Nombre">
+        <input type="text" placeholder="Asunto problema">
+        <input type="text" placeholder="Comentario">
+        <button type="submit">submit</button>
+    </form>
+</section>
+    {% endblock %}
+</body>
+</html>
