@@ -4,31 +4,30 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/home-nologin.css">
-    
-    <title>Clubie</title>
+    <link rel="stylesheet" href="../css/contact.css">
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+    <title>Contacto</title>
 </head>
-<body class="cuerpo">
+<body>
     {% extends 'base/base-nolog.html'%}
 
     {% block content %}
-<section class="Contacto">
-    <h2 class="Contacto-titulo">Contacto</h2>
-    <form class="form-soporte">
-        <input type="email" placeholder="Email">
-        <input type="text" placeholder="Nombre">
-        <input type="text" placeholder="Asunto problema">
-        <input type="text" placeholder="Comentario">
-        <button type="submit">submit</button>
-    </form>
-    <form action="" class="form-contacto">
-        <input type="email" placeholder="Email">
-        <input type="text" placeholder="Nombre">
-        <input type="text" placeholder="Asunto problema">
-        <input type="text" placeholder="Comentario">
-        <button type="submit">submit</button>
-    </form>
-</section>
+    <div class="container-form">
+        <div class="info-form">
+            <h2>Contactanos</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur recusandae, nostrum, neque magni voluptates possimus architecto quos aut explicabo officiis expedita? Officia consectetur debitis quod sint autem! Ratione, illum necessitatibus</p>
+            <a href="#"> <i class="fa fa-phone"></i>123-456-789</a>
+            <a href="#"> <i class="fa fa-envelope"></i>adm.clubie@gmail.com</a>
+            <a href="#"> <i class="fa fa-map-marked"></i> Montevideo, Uruguay</a>
+        </div>
+        <form action="#" autocomplete="off">
+            <input type="text" name="nombre" placeholder="Ingresa tu nombre" class="campo">
+            <input type="email" name="email" placeholder="Ingresa tu correo" class="campo">
+            <input type="asunto" name="asunto" placeholder="Asunto de su consulta" class="campo">
+            <textarea name="mensaje" placeholder="Ingresa tu mensaje"></textarea>
+            <input type="submit" name="enviar" value="enviar mensaje" class="btn">
+        </form>
+    </div>
     {% endblock %}
 </body>
 </html>
