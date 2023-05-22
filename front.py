@@ -23,5 +23,9 @@ def nosotros():
 def home_club():
     return render_template('home-club.html')
 
+@app.route('/miembros.html')
+def miembros():
+    return render_template('miembros.html')
+
 if __name__ == '__main__':
     app.run(debug=True)
