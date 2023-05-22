@@ -15,6 +15,10 @@ def contact():
 def login():
     return render_template('login.html')
 
+@app.route('/nosotros.html')
+def nosotros():
+    return render_template('nosotros.html')
+
 @app.route('/home-club.html')
 def home_club():
     return render_template('home-club.html')
