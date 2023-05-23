@@ -4,146 +4,93 @@
     padding: 0;
     font-family: "Roboto", sans-serif;
 }
+
 body {
-    background-color: #ce925693;
-    height: 100vh;
-}
-
-.logo-principal {
-    padding: 300px 600px;
-    height: 1000px;
-}
-.Nosotros {
-    height: 2000px;
+    min-height: 100vh;
+    overflow: hidden;
 
 }
 
-.Nosotros-titulo {
-    position: relative;
-    text-align: center;
-    padding: 100px;
-    font-size: 90px;
-}
-
-.mision {
-    position: relative ;
-    border-left: 2px solid #003E00;
-    border-right: 2px solid #003E00;
-    border-bottom: 2px solid #003E00;
-    border-top: 2px solid #003E00;
-    width: 900px;
-    height: 900px;
-    left: 500px;
-    right: 500px;
-}
-
-.mision-titulo-1{
+header {
     position: absolute;
-    width: 450px;
-    height: 446px;
     top: 0;
-    left: 25%;
-    padding: 20px;
-    font-size: 60px;
-    border-right: 2px solid #003E00;
-    transform: translateX(-50%);
-}
-
-.texto-mision {
-    font-size: 20px;
-    text-align: justify;
-}
-
-.texto-vision {
-    font-size: 20px;
-    text-align: justify;  
-}
-
-.texto-valores {
-    font-size: 20px;
-    text-align: justify;
-    
-}
-
-.vision-titulo-1{
-    position: absolute;
-    width: 450px;
-    height: 446px;
-    top: 0;
-    left: 50%;
-    font-size: 60px;
-    padding: 20px;
-}
-
-.valores-titulo-1 {
-    position: absolute;
+    left: 0;
     width: 100%;
-    height: 450px;
-    font-size: 60px;
-    bottom: 0;
-    border-top: 2px solid #003E00;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
 }
 
-.mision-titulo-2{
-    text-align: center;
+.header .logo {
+    cursor: pointer;
+}
+  
+.header .logo img {
+    transition: all 0.3s;
+    height: auto;
+    width: 130px;
+}
+  
+.header .logo img:hover {
+    transform: scale(1.2);
 }
 
-.vision-titulo-2 {
-    text-align: center;
-}
-
-.Valores-titulo-2 {
-    text-align: center;
-}
-.contacto-titulo {
+.opcion a {
     position: relative;
+    font-size: 1.1em;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 6px 15px;
+    transition: .5s;
 }
-.form-contacto {
+
+.opcion a span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    border-radius: 30px;
+    z-index: -1;
+    opacity: 0;
+    transform: scale(0);
+}
+
+.opcion a:hover span,
+.opcion a.active span {
+    transform: scale(1);
+    opacity: 1;
+}
+
+ul li {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0px 20px;
+    }
+
+.opcion a:hover,
+.opcion a.active {
+    color: #333;
+
+}
+
+.fondo {
     position: relative;
-    bottom: 100px;
-    height: 50vh;
-    width: 400px;
-    padding: 1rem;
-    margin: 2rem;
-    background-color:#ce9256a1;
-  }
-
-  .form-soporte {
-    position: relative;
-    bottom: 100px;
-    height: 50vh;
-    width: 400px;
-    padding: 1rem;
-    margin: 2rem;
-    background-color:#ce9256a1;
-  }
-
-  .form-contacto input {
-    width: 72%;
-    display: block;
-    margin: auto;
-    margin-bottom: 3rem;
-    background-color: transparent;
-    border: none;
-    border-bottom: #55672B thin solid;
-    text-align: center;
-    outline: none;
-    padding: 0.2rem 0;
-    font-size: 0.9rem;
-    color: rgb(0, 0, 0);
-  }
-
-  .form-soporte input {
-    width: 72%;
-    display: block;
-    margin: auto;
-    margin-bottom: 3rem;
-    background-color: transparent;
-    border: none;
-    border-bottom: #55672B thin solid;
-    text-align: center;
-    outline: none;
-    padding: 0.2rem 0;
-    font-size: 0.9rem;
-    color: rgb(0, 0, 0);
-  }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('/css/media/fondo-3.webp');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    top: 0;
+}
