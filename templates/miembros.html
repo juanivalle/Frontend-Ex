@@ -4,31 +4,60 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/contact.css">
+    <link rel="stylesheet" href="../css/miembros.css">
     <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
-    <title>Contacto</title>
+    <title>Miembros</title>
 </head>
 <body>
     {% extends 'base/base-log.html'%}
 
     {% block content %}
     <div class="container-form">
-        <div class="info-form">
-            <h2>Contactanos</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur recusandae, nostrum, neque magni voluptates possimus architecto quos aut explicabo officiis expedita? Officia consectetur debitis quod sint autem! Ratione, illum necessitatibus</p>
-            <a href="#"> <i class="fa fa-phone"></i>123-456-789</a>
-            <a href="#"> <i class="fa fa-envelope"></i>adm.clubie@gmail.com</a>
-            <a href="#"> <i class="fa fa-map-marked"></i> Montevideo, Uruguay</a>
+        <h2>Miembros</h2>
+        <div class="tabla-miembro">
+            <table id="miembros">
+                <tr>
+                  <th>Nombre</th>
+                  <th>Cedula</th>
+                  <th>Edad</th>
+                  <th>Membresia</th>
+                </tr>
+                <tr>
+                  <td>Juan</td>
+                  <td>47256564</td>
+                  <td>25</td>
+                  <td>No</td>
+                </tr>
+                <tr>
+                  <td>Matias Mancini</td>
+                  <td>78878652</td>
+                  <td>20</td>
+                  <td>Si</td>
+                </tr>
+                <tr>
+                    <td>Matias Mancini</td>
+                    <td>78878652</td>
+                    <td>20</td>
+                    <td>Si</td>
+                  </tr>
+                  <tr>
+                    <td>Matias Mancini</td>
+                    <td>78878652</td>
+                    <td>20</td>
+                    <td>Si</td>
+                  </tr>
+              </table>
         </div>
-        <form action="https://formsubmit.co/adm.clubie@gmail.com" method="POST" autocomplete="off">
-            <input type="text" name="name" placeholder="Ingrese su nombre" class="campo">
-            <input type="email" name="email" placeholder="Ingrese su correo" class="campo">
-            <input type="text" name="subject" placeholder="Asunto de su consulta" class="campo">
-            <textarea type="coments" name="coments" placeholder="Ingresa tu mensaje"></textarea>
-            <input type="submit" value="enviar mensaje" class="btn">
-            <input type="hidden" name="_next" value="http://127.0.0.1:5000/contact.html">
-            <input type="hidden" name="_captcha" value="false">
-        </form>
+        <div class="form-miembro">
+            <p>Nuevo Miembro</p>
+            <form method="POST" autocomplete="off">
+                <input type="text" name="name" placeholder="Nombre completo" class="campo">
+                <input type="text" name="cedula" placeholder="Cedula" class="campo">
+                <input type="text" name="edad" placeholder="Fecha de nacimiento" class="campo">
+                <input type="text" name="Membresia" placeholder="Tiene Membresia Si/No" class="campo">
+                <input type="submit" value="Cargar miembro" class="btn-miembro">
+            </form>
+        </div>
     </div>
     {% endblock %}
 </body>
