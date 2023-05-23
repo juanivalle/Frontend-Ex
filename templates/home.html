@@ -11,10 +11,28 @@
     
     <title>Clubie</title>
 </head>
-{% extends 'base/base-nolog.html'%}
 <body>
-    {% block content %}
+    <header>
+        <div class="logo"><img src="../css/media/Mi proyecto.png" alt="Logo de marca"></div>
+    <nav class="opcion">
+        <ul class="nav-links">
+            <li><a href="home.html" class="active">Home<span></span></a></li>
+            <li><a href="nosotros.html">Nosotros<span></span></a></li>
+            <li><a href="road-map.html">Road Map<span></span></a></li>
+            <li><a href="equipo.html">Equipo<span></span></a></li>
+            <li><a href="contact.html">Contacto<span></span></a></li>
+        </ul>
+    </nav>
+        <ul class="opciones">
+            <li class="opcion">
+                <span class="opcion-text"><a class ="link" href="login.html">login</a></span>
+            </li>
+        </ul>
+    </div>
+    </header>
+    <section class="fondo">
+        <img src="" class="logo">
+    </section>
     
-    {% endblock %}
 </body>
 </html>
