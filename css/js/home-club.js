@@ -8,7 +8,7 @@ var swiper = new Swiper(".mySwiper", {
         strech: 0,
         depth: 300,
         modifier: 1,
-        slideShadows: true,
+        slideShadows: false,
     },
     loop: true,
     autoplay: {
