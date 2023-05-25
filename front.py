@@ -27,5 +27,18 @@ def home_club():
 def miembros():
     return render_template('miembros.html')
 
+@app.route('/ventas.html')
+def ventas():
+    return render_template('ventas.html')
+
+@app.route('/trasabilidad.html')
+def trasabilidad():
+    return render_template('trasabilidad.html')
+
+@app.route('/ctrplanta.html')
+def ctrplanta():
+    return render_template('ctrplanta.html')
+
+
 if __name__ == '__main__':
     app.run(debug=True)
