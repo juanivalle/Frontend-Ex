@@ -97,3 +97,23 @@ body{
     transition: all 300ms ease;
     margin-bottom: 15px;
 }
+.nav-toggle {
+  display: none;
+  color: #fff;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  /*.container-form {
+      flex-direction: column;
+  }*/
+
+  .tabla-miembro {
+      justify-content: center;
+      overflow-x: auto;
+  }
+  th {
+    font-size: 10px;
+  }
+}

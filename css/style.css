@@ -86,9 +86,11 @@
     width: 100px;
     border-style: dotted;
   }
-  .cuerpo {
-    background-color: #ce925693;
-  }
+  body {
+    min-height: 100vh;
+    overflow: hidden;
+    background-image: url('/css/media/fondo\ login\ \(1\).webp');
+}
   
   p,
   h2 {
@@ -111,21 +113,24 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 80px;
   }
   .recuperar {
     position: relative;
-    top: 10px;
+    text-align: center;
+
   }
   
   .formulario {
     position: relative;
-    bottom: 100px;
-    height: 50vh;
+    height: 520px;
     width: 400px;
-    padding: 1rem;
-    margin: 2rem;
-    background-color:#ce9256a1;
+    transform: translate(-50%, -50%);
+    margin-top: 70%;
+    top: 50%;
+    left: 50%;
+    background-color:rgba(19, 99, 3, 0.349);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
   }
   
   .create-account {
@@ -141,10 +146,11 @@
     width: 72%;
     display: block;
     margin: auto;
-    margin-bottom: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 4.5rem;
     background-color: transparent;
     border: none;
-    border-bottom: #55672B thin solid;
+    border-bottom: #000000 thin solid;
     text-align: center;
     outline: none;
     padding: 0.2rem 0;
